@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+# $LOAD_PATH << File.join(File.dirname(__FILE__), *%w[.. lib])
+
+load File.join(File.dirname(__FILE__), *%w[.. lib zed.rb])
+opts={:stdout => ARGV.include?("--console")}
+
+Zed::Main.instance(opts).go
+
