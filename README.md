@@ -1,29 +1,17 @@
-# Zed
+# Zed - realtime POC
 
-TODO: Write a gem description
 
-## Installation
+Start it:
 
-Add this line to your application's Gemfile:
+    zed
 
-    gem 'zed'
+By default, zed will create a logfile in ~/zed/log.txt
 
-And then execute:
+To log to STDOUT instead:
 
-    $ bundle
+    zed --console
 
-Or install it yourself as:
 
-    $ gem install zed
+Stop it:
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    control-c
